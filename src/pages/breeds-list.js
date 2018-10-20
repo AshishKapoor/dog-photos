@@ -4,7 +4,6 @@
 import React from 'react';
 
 import Layout from '../components/layout';
-import { Link } from '@reach/router';
 
 class BreedsList extends React.Component {
   constructor(props){
