@@ -173,7 +173,6 @@ class BreedsList extends React.Component {
           <option value="wolfhound-irish">irish wolfhound</option>
         </select>
         <div style={{ margin: 10 }}>{loading ? "loading..." : <img alt='dog photos' src={dogData && dogData.message} />}</div>
-        <Link to="/">Homepage</Link>
       </Layout>
     );
   }
